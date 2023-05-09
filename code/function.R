@@ -16,6 +16,7 @@ Deseasonal <- function(data,
     xlab("Date (monthly)") +
     ylab(ylab) +
     ggtitle(title)
+  #
   
   # create a ts object
   ts_data <- ts(data[,col_value], frequency = frequency, start = start)
